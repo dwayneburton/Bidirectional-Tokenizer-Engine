@@ -1,1 +1,2 @@
-# Bidirectional-Tokenizer
+# Bidirectional Tokenizer Engine
+A command-line word-to-token mapping engine built in C++ using a custom hash map and vector-based bidirectional lookup. Supports dynamic word insertion, file-based word loading, and efficient mapping from words to tokens (integers) and vice versa. Includes commands to retrieve mappings, print hash buckets, and handle rehashing automatically when a load factor threshold is reached.
